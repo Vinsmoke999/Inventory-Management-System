@@ -1,11 +1,11 @@
-Problem Statement
+#Problem Statement
 Small-scale shop owners and inventory managers require a simple, reliable, and accessible tool to keep track of their stock levels, item details, and manage inventory movements. The current manual processes are prone to errors and lack real-time visibility into available quantities, leading to potential stockouts or overstocking. This project aims to solve this by creating a basic digital inventory management system.
 
 
-Scope of the Project
+#Scope of the Project
 The project implements a Console-Based Inventory Management System that allows the user to perform basic inventory operations on items (referred to as "Saman").
 
-The system's scope includes:
+#The system's scope includes:
 
 
 Data Persistence: Loading inventory data from and saving it to a plain text file (Saman.txt).
@@ -22,7 +22,7 @@ Stock Updates: Allowing the user to update the stock quantity of an existing ite
 
 User Interface: Providing a simple text-based menu for interacting with the system.
 
-Target Users
+#Target Users
 The primary target users for this system are:
 
 
@@ -34,7 +34,7 @@ Inventory Clerks: Personnel responsible for basic stock entry and updating in a 
 
 Students/Beginners: Users needing a straightforward, console-based tool for practicing basic inventory and data handling operations.
 
-High-Level Features
+#High-Level Features
 The Inventory Management System provides the following high-level features:
 
 
