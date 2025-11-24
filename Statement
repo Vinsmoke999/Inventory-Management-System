@@ -1,0 +1,53 @@
+Problem Statement
+Small-scale shop owners and inventory managers require a simple, reliable, and accessible tool to keep track of their stock levels, item details, and manage inventory movements. The current manual processes are prone to errors and lack real-time visibility into available quantities, leading to potential stockouts or overstocking. This project aims to solve this by creating a basic digital inventory management system.
+
+
+Scope of the Project
+The project implements a Console-Based Inventory Management System that allows the user to perform basic inventory operations on items (referred to as "Saman").
+
+The system's scope includes:
+
+
+Data Persistence: Loading inventory data from and saving it to a plain text file (Saman.txt).
+
+
+Item Management: Adding new items to the inventory, with unique ID validation.
+
+
+Stock Monitoring: Displaying a list of all items with their ID, name, price, and current quantity.
+
+
+Stock Updates: Allowing the user to update the stock quantity of an existing item (both adding and selling stock).
+
+
+User Interface: Providing a simple text-based menu for interacting with the system.
+
+Target Users
+The primary target users for this system are:
+
+
+Small Business Owners: Individuals running small shops or kiosks that need a simple way to manage their physical goods.
+
+
+Inventory Clerks: Personnel responsible for basic stock entry and updating in a small organization.
+
+
+Students/Beginners: Users needing a straightforward, console-based tool for practicing basic inventory and data handling operations.
+
+High-Level Features
+The Inventory Management System provides the following high-level features:
+
+
+View Inventory: Display all current items and their details (ID, Name, Price, Quantity).
+
+
+Add Item: Create a new inventory record with a unique ID, name, price, and initial quantity (a CRUD operation).
+
+
+Update Stock: Increase (Add Stock) or Decrease (Sell Stock) the quantity of an item using its unique ID (a CRUD operation).
+
+
+Data Persistence: Automatically load and save inventory data to a file upon start and after updates.
+
+
+Error Handling: Include basic checks for existing IDs when adding new items and for insufficient stock when selling (an Error handling strategy)
