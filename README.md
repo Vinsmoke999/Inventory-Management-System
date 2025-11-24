@@ -2,7 +2,7 @@ Inventory Management System
 
 (Python)
 
-📌 Overview
+#Overview
 
 This project is a simple command-line based Inventory Management System written in Python. It helps store, update, and manage items (called Saman) with their details such as ID, Name, Price, and Quantity.
 
@@ -11,7 +11,7 @@ The program uses a text file (Saman.txt) to save and load data, ensuring that th
 
 ---
 
-🛠 Features
+ #Features
 
 1. View All Saman
 
@@ -39,7 +39,7 @@ Clean exit from the inventory system.
 
 ---
 
-📁 File Details
+ #File Details
 
 Saman.txt (Data File)
 
@@ -55,7 +55,7 @@ Example:
 
 ---
 
-🧩 How the Code Works
+ #How the Code Works
 
 1. load_data()
 
@@ -84,7 +84,7 @@ Runs until the user selects option 4 (Exit).
 
 ---
 
-▶ Running the Program
+ #Running the Program
 
 1. Save the Python code in a file (e.g., inventory.py).
 
@@ -105,7 +105,7 @@ python inventory.py
 
 ---
 
-📌 Notes
+ #Notes
 
 Input validation is minimal; ensure valid numeric inputs for price and quantity.
 
@@ -117,7 +117,7 @@ This is a beginner‑friendly inventory project suitable for assignments or prac
 
 ---
 
-✔ Conclusion
+ #Conclusion
 
 This Inventory Management System provides a simple yet functional way to manage items using Python. It can be enhanced further with features like search, delete, sorting, or using JSON/SQLite for better data handling.
 
